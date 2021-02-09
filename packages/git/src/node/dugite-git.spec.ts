@@ -272,7 +272,7 @@ describe('git', async function (): Promise<void> {
 
         it('origin is the default after a fresh clone', async () => {
             const git = await createGit();
-            const remoteUrl = 'https://github.com/TypeFox/find-git-exec.git';
+            const remoteUrl = 'https://github.com/birx-web/find-git-exec.git';
             const localUri = FileUri.create(track.mkdirSync('remote-with-clone')).toString();
             const options = { localUri };
             await git.clone(remoteUrl, options);
