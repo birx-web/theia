@@ -15,7 +15,7 @@
     "@types/p-queue": "^2.3.1",
     "diff": "^3.4.0",
     "dugite-extra": "git+https://github.com/birx-web/dugite-extra.git",
-    "find-git-exec": "^0.0.3",
+    "find-git-exec": "git+https://github.com/birx-web/find-git-exec.git",
     "find-git-repositories": "^0.1.1",
     "moment": "2.24.0",
     "octicons": "^7.1.0",
