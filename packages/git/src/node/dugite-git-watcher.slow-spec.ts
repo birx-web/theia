@@ -50,7 +50,7 @@ describe('git-watcher-slow', () => {
         watcher = container.get(DugiteGitWatcherServer);
         repository = { localUri };
 
-        await git!.clone('https://github.com/TypeFox/find-git-exec.git', { localUri });
+        await git!.clone('https://github.com/birx-web/find-git-exec.git', { localUri });
     });
 
     after(function (): void {
